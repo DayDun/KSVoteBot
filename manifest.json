@@ -1,0 +1,16 @@
+{
+    "name": "KSVoteBot",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "permissions": [
+        "*://*/",
+        "tabs",
+        "cookies",
+        "webNavigation",
+        "webRequest"
+    ],
+    "browser_action": {},
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
